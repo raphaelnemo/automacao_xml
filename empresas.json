@@ -1,0 +1,12 @@
+{
+  "12345678000199": {
+    "razao_social": "Mercado Exemplo Ltda",
+    "certificado": "certificados/12345678000199.pfx",
+    "senha": "senha_do_certificado_1"
+  },
+  "98765432000111": {
+    "razao_social": "Padaria Silva Ltda",
+    "certificado": "certificados/98765432000111.pfx",
+    "senha": "senha_do_certificado_2"
+  }
+}
