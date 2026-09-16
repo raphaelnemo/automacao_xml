@@ -1,12 +1,21 @@
 {
-  "12345678000199": {
-    "razao_social": "Mercado Exemplo Ltda",
-    "certificado": "certificados/12345678000199.pfx",
-    "senha": "senha_do_certificado_1"
+  "certificado_escritorio": {
+    "cnpj_escritorio": "00123456000199",
+    "caminho_cert_pfx": "certificados/osc_assessoria.pfx",
+    "senha_cert": "SenhaEscritorio2026"
   },
-  "98765432000111": {
-    "razao_social": "Padaria Silva Ltda",
-    "certificado": "certificados/98765432000111.pfx",
-    "senha": "senha_do_certificado_2"
+  "clientes": {
+    "12345678000199": {
+      "codigo": "001",
+      "razao_social": "Mercado Exemplo Ltda",
+      "procuracao_ativa": true
+    },
+    "32165498000155": {
+      "codigo": "005",
+      "razao_social": "Lanchonete Central Ltda",
+      "procuracao_ativa": false,
+      "caminho_cert_pfx": "certificados/lanchonete_central.pfx",
+      "senha_cert": "SenhaCliente123"
+    }
   }
 }
